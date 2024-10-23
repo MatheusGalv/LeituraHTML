@@ -1,0 +1,34 @@
+Produção_Bibliografica : 
+ trabalhos_em_eventos = root.findall(".//TRABALHO-EM-EVENTOS")
+        artigos_publicados = root.findall(".//ARTIGO-PUBLICADO")
+        livros_publicados = root.findall(".//LIVRO-PUBLICADO-OU-ORGANIZADO")
+        capitulos_publicados = root.findall(".//CAPITULO-DE-LIVRO-PUBLICADO")
+        texto_jornais = root.findall(".//TEXTO-EM-JORNAL-OU-REVISTA")
+        Demais_producao = root.findall(".//OUTRA-PRODUCAO-BIBLIOGRAFICA")
+        prefacios = root.findall(".//PREFACIO-POSFACIO")
+        traducaos = root.findall(".//TRADUCAO")
+
+Produção tecnica:
+
+trabalhos_Tecnicos = root.findall(".//TRABALHO-TECNICO")
+        demais_Apresentacao = root.findall(".//APRESENTACAO-DE-TRABALHO")
+        demais_Material = root.findall(".//DESENVOLVIMENTO-DE-MATERIAL-DIDATICO-OU-INSTRUCIONAL")
+        demais_editoracao = root.findall(".//EDITORACAO")
+        demais_evento = root.findall(".//ORGANIZACAO-DE-EVENTO")
+        demais_programa = root.findall(".//PROGRAMA-DE-RADIO-OU-TV")
+        demais_relatorio = root.findall(".//RELATORIO-DE-PESQUISA")
+        demais_midia = root.findall(".//MIDIA-SOCIAL-WEBSITE-BLOG")
+        demais_outra = root.findall(".//OUTRA-PRODUCAO-TECNICA")
+        demais_carta = root.findall(".//CARTA-MAPA-OU-SIMILAR")
+        demais_curso = root.findall(".//CURSO-DE-CURTA-DURACAO-MINISTRADO")
+
+
+
+
+
+Outra_produção :
+musicas = root.findall(".//MUSICA")
+        orientacao_mestrado = root.findall(".//ORIENTACOES-CONCLUIDAS-PARA-MESTRADO")
+        orientacao_doutorado = root.findall(".//ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO")
+        orientacao_posdoutorado = root.findall(".//ORIENTACOES-CONCLUIDAS-PARA-POS-DOUTORADO")
+        orientacao_outras = root.findall(".//OUTRAS-ORIENTACOES-CONCLUIDAS")
