@@ -46,7 +46,7 @@ def processar_arquivo(arquivo_html):
                         texto_span = span_transform.get_text(strip=True)
 
                         # Verifica se há um ano no texto
-                        for ano in range(1900, 2100):  # Anos de 1900 a 2099
+                        for ano in range(1900, 2026):  # Anos de 1900 a 2099
                             if str(ano) in texto_span:
                                 if ano >= 2021:  # Verifica se o ano é >= 2021
                                     # Armazena o ano e o texto_span como tupla
@@ -75,7 +75,7 @@ def processar_arquivo(arquivo_html):
                         texto_span = span_transform.get_text(strip=True)
 
                         # Verifica se há um ano no texto
-                        for ano in range(1900, 2100):  # Anos de 1900 a 2099
+                        for ano in range(1900, 2026):  # Anos de 1900 a 2099
                             if str(ano) in texto_span:
                                 if ano >= 2021:  # Verifica se o ano é >= 2021
                                     # Armazena o ano e o texto_span como tupla
